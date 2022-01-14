@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 import { IsEnum } from "class-validator";
-import { TaskStatus } from "../entity/task.entity";
+import { TaskStatus } from "../entity/Enums/task-status.enum";
 
 export class UpdateTaskStatusDto{
     @IsEnum(TaskStatus)
